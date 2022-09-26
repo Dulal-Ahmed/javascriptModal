@@ -150,11 +150,14 @@ button{
        let clickNow = document.querySelector("#clickNow");
        let modals =document.querySelector("#modals");
        let cross = document.querySelector("#cross"); 
+       let inputName =document.querySelector("input"); 
        clickNow.onclick = ()=>{
         modals.style.display = " flex";
        }
        cross.onclick = ()=>{
         modals.style.display = " none";
+        inputName.value = "";
+
        }
 
     </script>
